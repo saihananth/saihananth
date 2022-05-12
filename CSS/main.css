@@ -1,7 +1,10 @@
-.h1 {
-    background-color: aqua;
+header {
+  background-color: lightblue;
 }
 
-body {
-    background-color: blue;
+.h1 {
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
