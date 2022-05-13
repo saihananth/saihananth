@@ -1,10 +1,15 @@
-header {
-    background-color: lightblue;
+$PrimaryBtn:rgb(56, 146, 142);
+.body {
+    background-color: $PrimaryBtn;
+    display: flex;
+    &__h1 {
+        background-color: aqua;
+    }
 }
 
 .h1 {
     background-color: aqua;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
-
-$PrimaryBtn:rgb(56, 146, 142)
